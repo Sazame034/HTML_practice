@@ -56,3 +56,11 @@ ol {
   align-content: center;
   margin-left: 50px;
 }
+
+form {
+  margin: 10px auto;
+}
+
+.pform {
+  text-align: left;
+}
