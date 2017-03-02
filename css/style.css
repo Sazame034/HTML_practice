@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rochester');
+
+
 body {
   background-color: #dfdfde;
   font-family: sans-serif;
@@ -10,8 +14,8 @@ body {
 }
 
 h1 {
-  font-size: 300%;
-  font-family: serif;
+  font-size: 500%;
+  font-family: 'Rochester', serif;
   color: #a2798f;
   text-align: center;
 }
@@ -50,7 +54,7 @@ h2{
   color: #a2798f;
   text-align: center;
 }
-ol {
+ol li {
   font-family: sans-serif;
   font-weight: bold;
   align-content: center;
