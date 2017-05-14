@@ -4,66 +4,84 @@
   <meta charset="utf-8">
   <title>Stephanie Grande Photography</title>
   <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Stephanie Grande Photography</h1>
-  </header>
-    <div id="content">
-    <section>
-    <p>Hello and welcome to Stephanie Grande Photography's mini website! Here you can have a quick look about my services that
-    I offer as a photographer who loves what she does! I have a list of sessions I offer and well as the starting prices for each session.
-    Feel free to look around and don't forget to visit and like my <a href="https://www.facebook.com/stephanie034photography/" target="_blank">Facebook page!</a></p>
-    </section>
-  </hr>
-  <section>
-  <h2>Why choose me as a Photographer?</h2>
-    <ol>
-      <li>I work with my clients thoughout their entire experience whether we have to reschedule, create a payment plan, or help decide what to wear!</li>
-      <li>We have fun during the photo session! I like for my clients to have fun at all times!</li>
-      <li>I can customize all my products just for you!</li>
-      <li>I am here for you! If you choose me as yoru photographer I will assure you that your memories will be preserved!</li>
-    </ol>
-  </section>
-    </br>
-    <table>
-      <tr>
-        <th>Children</th>
-        <th>Family</th>
-        <th>Portraits</th>
-        <th>Weddings</th>
-      </tr>
-      <tr>
-        <td>Starting at $50.00</td>
-        <td>Starting at $75.00</td>
-        <td>Starting at $50.00</td>
-        <td>Starting at $500.00</td>
-      </tr>
-      <tr>
-        <td><img src="images/children.jpg" alt="children photo" title="Children Photography"></td>
-        <td><img src="images/family.jpg" alt="family photo" title="Family Photography"></td>
-        <td><img src="images/portraits.jpg" alt="portraits photo" title="Portraits Photography"></td>
-        <td><img src="images/wedding.jpg" alt="wedding photo" title="Wedding Photography"></td>
-      </tr>
-    </table>
-    <section id="form">
-    <form action="#" method="post">
-      <p class="pform">We want to hear from you!</p>
-      <label for="full name">Name</label>
-      <input type="text" id="fullname" name="fullname" placeholder="Your Name" required>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Your Email" required>
-      <p class="pform">Leave a comment below!</p>
-      <textarea id="comment" name="comment" rows="15"></textarea>
-    </br>
-      <input type="submit" value="send">
-    </form>
-  </section>
-  <figure>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52802.02157926903!2d-101.74571257099636!3d34.19424802511454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8701e61c7f49cf23%3A0x358adbe2df9e020f!2sPlainview%2C+TX+79072!5e0!3m2!1sen!2sus!4v1487668199979" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <figcaption>We are proudly located in Plainview, Texas. We offer session in towns between Amarillo, TX and Lubbock, TX!</figcaption>
-  </figure>
-  </div>
+  <div id="header_container">
+    <header>
+        <h1>Stephanie Grande Photography</h1>
+    </header>
+    <nav>
+        <ul id="menu">
+          <li> <a href="#">Home</a> </li>
+          <li> <a href="#">Sessions</a> </li>
+          <li> <a href="#"> Portfolio</a> </li>
+          <li> <a href="#">Client Portal</a> </li>
+          <li> <a href="#">About</a> </li>
+        </ul>
+    </nav>
+  </div> <!-- END HEADER CONTAINER -->
+  <div class="clearfix">
+    <div class="wrapper">
+    <div id="intro" class="full">
+      <article>
+        <p>Hello and welcome to Stephanie Grande Photography's mini website! Here you can have a quick look about my services that
+          I offer as a photographer who loves what she does! I have a list of sessions I offer and well as the starting prices for each session.
+          Feel free to look around and don't forget to visit and like my <a href="https://www.facebook.com/stephanie034photography/" target="_blank">Facebook page!</a></p>
+      </article>
+    </div> <!-- END INTRO ARTICLE -->
+    <div id="price_table" class="full">
+      <table>
+        <tr>
+          <th>Children</th>
+          <th>Family</th>
+          <th>Portraits</th>
+          <th>Weddings</th>
+        </tr>
+        <tr>
+          <td>Starting at $50.00</td>
+          <td>Starting at $75.00</td>
+          <td>Starting at $50.00</td>
+          <td>Starting at $500.00</td>
+        </tr>
+        <tr>
+          <td><img src="images/children.jpg" alt="children photo" title="Children Photography"></td>
+          <td><img src="images/family.jpg" alt="family photo" title="Family Photography"></td>
+          <td><img src="images/portraits.jpg" alt="portraits photo" title="Portraits Photography"></td>
+          <td><img src="images/wedding.jpg" alt="wedding photo" title="Wedding Photography"></td>
+        </tr>
+      </table>
+    </div> <!-- END PRICE TABLE -->
+    <div id="products" class="full">
+      <h2>Products</h2>
+        <ol>
+          <li>I work with my clients thoughout their entire experience whether we have to reschedule, create a payment plan, or help decide what to wear!</li>
+          <li>We have fun during the photo session! I like for my clients to have fun at all times!</li>
+          <li>I can customize all my products just for you!</li>
+          <li>I am here for you! If you choose me as yoru photographer I will assure you that your memories will be preserved!</li>
+        </ol>
+    </div> <!-- END OF PRODUCTS -->
+    <div id="feedback_form" class="fourty">
+      <form action="#" method="post">
+        <p class="pform">We want to hear from you!</p>
+        <label for="full name">Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your Name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <p class="pform">Leave a comment below!</p>
+        <textarea id="comment" name="comment" rows="15"></textarea>
+      </br>
+        <input type="submit" value="send">
+      </form>
+    </div> <!-- END OF FEEDBACK FORM -->
+    <div id="map" class="fourty">
+      <figure>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52802.02157926903!2d-101.74571257099636!3d34.19424802511454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8701e61c7f49cf23%3A0x358adbe2df9e020f!2sPlainview%2C+TX+79072!5e0!3m2!1sen!2sus!4v1487668199979" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <figcaption>We are proudly located in Plainview, Texas. We offer session in towns between Amarillo, TX and Lubbock, TX!</figcaption>
+      </figure>
+    </div> <!-- END OF MAP -->
+  </div> <!-- .wrapper -->
+</div> <!-- clearfix -->
   <footer> &copy; 2017 Stephanie Grande Photography. All Rights Reserved.</footer>
 </body>
 </html>

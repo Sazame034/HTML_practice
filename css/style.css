@@ -1,22 +1,109 @@
-
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css?family=Rochester');
 
-
-body {
-  background-color: #dfdfde;
-  font-family: sans-serif;
+/* OVERALL LAYOUT FIX */
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
-#content {
-  background-color: #ebdada;
-  width: 75%;
-  margin: 10px auto;
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #A7B3A5;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+.full {
+  width: 100%;
+}
+.eighty {
+  width: 80%;
+}
+.fourty {
+  width: 40%;
+}
+
+/* DIV Fixes */
+#header_container {
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #B4DBC0;
+  position: fixed;
+  top: 0;
+}
+#intro {
+
+}
+#price_table {
+
+}
+#products {
+
+}
+#feedback_form {
+  float: left;
+}
+#map {
+  float: right;
+}
+/* NAVIGATION FIXES */
+nav {
+  margin: 0;
+}
+ul#menu {
+  margin: 0;
+}
+
+ul#menu li {
+  list-style-type: none;
+	display: inline-block;
+  float: left;
+  position: relative;
+	padding-top: 8px;
+	height: 10%;
+	width: 20%;
+	text-align: center;
+  font-size: 200%;
+}
+
+ul#menu li a {
+  text-decoration: none;
+	color: black;
+	display: inline-block;
+	position: absolute;
+}
+
+/* BODY AND TEXT */
+body {
+  background-color: #EAE3EA;
+  font-family: sans-serif;
+  margin: 0;
+  padding-top: 150px;
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 400%;
   font-family: 'Rochester', serif;
-  color: #a2798f;
+  color: #5B4350;
+  text-align: center;
+}
+
+h2{
+  font-size: 250%;
+  font-family: serif;
+  color: #5B4350;
   text-align: center;
 }
 
@@ -27,33 +114,33 @@ p {
 }
 
 img {
-  width: 300px;
-  height: 300px;
-  border: .5em solid #8caba8;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #5B4350;
   margin: 10px;
 }
 
 table{
   text-align: center;
+  width: 100%;
+  margin: auto;
 }
 
 th {
-  color:#a2798f;
+  color: blue;
   font-family: cursive;
   font-size: 200%;
+  width: 25%;
+  float: left;
 }
 
 td {
   font-family: cursive;
   font-size: 120%;
+  width: 25%;
+  float: left;
 }
 
-h2{
-  font-size: 250%;
-  font-family: serif;
-  color: #a2798f;
-  text-align: center;
-}
 ol li {
   font-family: sans-serif;
   font-weight: bold;
